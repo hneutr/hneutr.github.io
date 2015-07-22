@@ -26,45 +26,6 @@ html, body {
     border: 1px solid #d1d1d1;
 }
 
-/******************           Container Stylings                **************/
-#main {
-    display: -webkit-box; 
-    display: -moz-box;    
-    display: -ms-flexbox; 
-    display: flex;
-}
-#page-intro, 
-.stub, 
-#page-body,
-#pagination div {
-    margin: 1.5rem;
-    padding: 1.5rem;
-    background: #ffffff;
-    border: 1px solid #d1d1d1;
-}
-#page-intro, .stub {
-    text-align: center;
-}
-#pagination.middle {
-    justify-content: space-between;
-    -webkit-box-pack: justify;
-}
-#pagination.right {
-    justify-content: flex-end;
-    float: right;
-}
-#pagination.left {
-    justify-content: flex-start;
-    float: left;
-}
-#pagination div {
-    padding: 1rem;
-    margin-top: 0;
-}
-.page-content {
-    text-align: left;
-}
-
 /******************                Desktop                ********************/
 @media screen and (min-width: 800px) and (min-height: 400px) {
     #main {
@@ -91,6 +52,7 @@ html, body {
         order: 2;
         margin-top: 2rem;
         width: 600px;
+        margin-bottom: 2rem;
     }
     #kinds, 
     #about,
@@ -102,12 +64,19 @@ html, body {
         margin: 0;
         float: right;
     }
+    #page-intro, 
+    .stub, 
+    #page-body,
+    #pagination div {
+        margin: 1.5rem;
+        padding: 1.5rem;
+    }
 }
 
 /******************                 Mobile                ********************/
 @media (max-width: 800px) {
     html {
-        font-size: 20px;
+        font-size: 18px;
     }
     #main {
         flex-direction: column;
@@ -125,6 +94,13 @@ html, body {
         order: 1;
         -webkit-box-direction: normal;
     }
+    #page-intro, 
+    .stub, 
+    #page-body,
+    #pagination div {
+        margin: .75rem;
+        padding: 1rem;
+    }
     .navlink a {
         display: block;
         text-align: center;
@@ -133,6 +109,43 @@ html, body {
     p.subtitle {
         text-align: center;
     }
+}
+
+/******************           Container Stylings                **************/
+#main {
+    display: -webkit-box; 
+    display: -moz-box;    
+    display: -ms-flexbox; 
+    display: flex;
+}
+#page-intro, 
+.stub, 
+#page-body,
+#pagination div {
+    background: #ffffff;
+    border: 1px solid #d1d1d1;
+}
+#page-intro, .stub {
+    text-align: center;
+}
+#pagination.middle {
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+}
+#pagination.right {
+    justify-content: flex-end;
+    float: right;
+}
+#pagination.left {
+    justify-content: flex-start;
+    float: left;
+}
+#pagination div {
+    padding: 1rem;
+    margin-top: 0;
+}
+.page-content {
+    text-align: left;
 }
 
 /******************             Nav and Header                ****************/
