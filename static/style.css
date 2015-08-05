@@ -199,6 +199,10 @@ html, body {
     font-size: 1rem;
 }
 
+hr {
+    width: 40%;
+    margin: 2rem auto;
+}
 #page-intro hr,
 .stub hr {
     width: 3rem;
@@ -237,4 +241,9 @@ a#header,
 .stub h2 a {
     border-bottom: none;
     box-shadow: none;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
 }
