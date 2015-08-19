@@ -224,6 +224,16 @@ p.spacer {
     margin-bottom: 0;
 }
 
+p.verse-top,
+p.verse-mid,
+p.verse-last {
+    margin-bottom: 0;
+}
+p.verse-mid,
+p.verse-bot {
+    margin-top: 0;
+}
+
 a {
     text-decoration: none;
     color: #000000;
