@@ -1,0 +1,226 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 
+    The Case for Groups | hunter (verb)
+</title>
+    <link rel="stylesheet" href="/static/style.css"/>
+     
+</head>
+<body>
+    <div id="main">
+        <div id="nav" class="flex-column">
+            <a id="header" href="/">
+                <p class="title">hunter</p>
+                <p class="subtitle">(<span>verb</span>)</p>
+            </a>
+            <hr>
+            <div id="kinds" class="flex-column">
+                
+                    <div class="navlink">
+    <a href="/kind/Thoughts.html">Thoughts</a>
+</div>
+                
+                
+                    <div class="navlink">
+    <a href="/kind/Projects.html">Projects</a>
+</div>
+                
+                
+                    <div class="navlink">
+    <a href="/kind/Playlists.html">Playlists</a>
+</div>
+                
+                
+                    <div class="navlink">
+    <a href="/kind/Written.html">Written</a>
+</div>
+                
+            </div>
+            <hr>
+            <div id="meta" class="flex-column">
+                
+                    <div class="navlink">
+    <a href="/years.html">Years</a>
+</div>
+                            
+                
+                    <div class="navlink">
+    <a href="/tags.html">Tags</a>
+</div>
+                            
+            </div>
+            <hr>
+            <div id="about" class="flex-column">
+                
+                    <div class="navlink">
+    <a href="/me.html">Me</a>
+</div>
+                
+            </div>
+        </div>
+        <div id="content-wrapper" class="flex-column">
+            <div class="contrast">
+                <div id="page-intro">
+                    
+    
+        
+    
+    <h1><a href="/2014/09/The-Case-For-Groups/">The Case for Groups</a></h1>        
+    
+
+<hr>
+<div class="meta">
+    
+
+    
+    <p>Date: <a href="/year/2014.html">2014/09/08</a></p>
+    
+
+    
+    <p>Kind: <a href="/kind/Thoughts.html">Thoughts</a></p>
+    
+    
+    
+    <p> Tags: 
+        
+            <a href="/tag/organization.html">organization</a>
+        
+    </p>
+    
+</div>
+
+
+    
+
+                </div>
+            </div>
+            <p class="spacer"></p>
+            <div class="contrast">
+                
+<div id="page-body">
+    <p>I’m not satisfied with my computer’s file system organization. </p>
+<p>Right now there are two independent (but overlapping) ways to organize content:</p>
+<ol>
+<li>Folders</li>
+<li>Tags</li>
+</ol>
+<p>I don’t think either of these options is good enough, so I propose a hybrid type: the <em>group</em>. But first, why aren’t the traditional methods good enough?</p>
+<hr />
+<p>Let’s look at folders. </p>
+<p>The concept behind the folder is old, predating computers by a <em>long</em> time. </p>
+<p>A folder is: an object with a name containing other objects, which can be files or other folders.</p>
+<hr />
+<p>What information do folders convey, and how can they be interacted with?</p>
+<ul>
+<li>A folder’s name describes the objects it contains. <ul>
+<li>A folder’s name defines a space for the objects in it, and if an object in that folder is not contained in that space, it is in the wrong place. (e.g. if a folder is named ‘Music’, anything in that folder that is <em>not</em> music is mislabeled)</li>
+</ul>
+</li>
+<li>A set of folders is hierarchal in structure. <ul>
+<li>Folders not contained by any other folder are at the top level, and any folder contained by <em>n</em> other folders exists at level <em>n</em>. If I want to get to a folder a level <em>n</em>, I have to go through the other (<em>n</em> - 1) folders. </li>
+</ul>
+</li>
+<li>A folder—and anything in it—exists in a single location. <ul>
+<li>This follows from their hierarchal organization and historically physical character: a folder is modeled after a physical thing, so it "can’t" exist in two places at once. </li>
+</ul>
+</li>
+</ul>
+<p>Folders are great for organizing physical objects in the physical world, but I don’t think they are the optimal solution for digital objects in the digital world. Digital objects don’t need to obey all properties of the physical world (though I am certainly <em>not</em> saying they can be caused by anything outside it). Limiting their organization to what can be done in the physical world doesn't make much sense.</p>
+<hr />
+<p>What are the problems with folders?</p>
+<ol>
+<li>There are times when an object nested in some number of folders doesn’t fit exclusively under its label. <ul>
+<li>Imagine a folder labeled ‘Music’, containing, surprisingly, a bunch of music, and also several music reviews. Those reviews <em>aren’t</em> music, but they are <em>definitely</em> associated. The reviews and the music files could each have their own folder, and be inside a containing ‘Related to Music’ folder, but I find this solution a tad unattractive.</li>
+</ul>
+</li>
+<li>There are times when it is problematic for a folder to exist in a rigid hierarchy. <ul>
+<li>Let’s say you have a deeply nested folder, but that folder is also one you access frequently. It <em>does</em> fit its label, deep within its folder structure, but it’s inconvenient to have it so far from reach. Putting it in a more prime location solves the ease of access issue, but at the cost of valuable (and pertinent) information.</li>
+</ul>
+</li>
+<li>There are times when a file or folder should exist in more than one location. <ul>
+<li>Imagine two folders, ‘Work’ and ‘Videos’ and a video file that is associated with Work. Should it be in the Work folder or the Videos folder?</li>
+</ul>
+</li>
+</ol>
+<hr />
+<p>Tags solve many of the problems with folders, so let’s pause to take a look at tags.</p>
+<p>A tag is: an adjective which can be attached to an object.</p>
+<p>What information do tags convey, and how can they be interacted with?</p>
+<ul>
+<li>Like a folder, a tag’s name describes the objects it is attached to. </li>
+<li>A tag has an associated ’tag-folder’, containing all the objects with that tag. <ul>
+<li>This 'tag-folder’ exists in a single location (the tag-list), and anything with that tag has a reference to that location.</li>
+</ul>
+</li>
+<li>Tags are not hierarchal, and multiple tags can be attached to an object.</li>
+<li>A tagged object must exist within a folder.</li>
+</ul>
+<p>It isn’t possible to organize things by tag in the real world: you can’t physically gather together all the ‘fast things’ that exist, but virtually, a computer can. Tags are powerful, and aren’t limited by most of the constraints of folders, but this freedom comes with its own limitations. </p>
+<hr />
+<p>What problems do tags solve?</p>
+<p>Well, they solve all the problems with folders:</p>
+<ol>
+<li>An object always fits under its tags, since tags are actively added.</li>
+<li>A tag is not bound to a hierarchal system, and can be accessed by the tag list or by a tagged object. </li>
+<li>An object in any location (folder) can be tagged with any tag.</li>
+</ol>
+<hr />
+<p>So what are the problems with tags?</p>
+<ol>
+<li>There are times when it would be desirable to have a tag-folder exist in a location other than the tag-list. <ul>
+<li>I might want to access everything I’ve tagged as 'To Do’ from my desktop, without searching through the tag-list.</li>
+</ul>
+</li>
+<li>There are times when a tag should exist within a hierarchal organization. <ul>
+<li>Suppose I have two tags, a ‘dark roast’ tag and a ‘light roast’ tag, and that everything tagged with either of these two tags also has a ‘coffee’ tag. Because 'dark roast' and 'light roast' only exist within the context of the 'coffee' tag, they are <em>dependent</em> on the coffee tag - they function as a tag (adjective) for a tag. </li>
+</ul>
+</li>
+<li>There are times when a tagged object shouldn’t be in a folder. <ul>
+<li>There is no reason to force an object to exist in a folder. </li>
+</ul>
+</li>
+</ol>
+<hr />
+<p>Tags and Folders each provide functionality the other lacks, but there are issues with both.</p>
+<p>I propose a different organizational unit which subsumes both tags and folders: the <em>group</em>. </p>
+<p>A group is like a circle in a venn-diagram.</p>
+<ol>
+<li>an object can be a part of one or more groups.</li>
+<li>a group can contain other group-folders or objects.<ul>
+<li>If a group is contained entirely within another group, it is <em>dependent</em> on that group.</li>
+</ul>
+</li>
+<li>a group exists in the group-list if it is not dependent, and within its dependent group's group-list if it is dependent.</li>
+<li>a group, or the intersection of several groups, can exist as a group-folder object within another group. (e.g. a group-folder containing the intersection of the groups ‘Schoolwork’, ‘Current’, and ‘Algorithms’ could be placed on the desktop)</li>
+</ol>
+<p>Folders would become group-folders but otherwise function normally. </p>
+<p>A file created in a group-folder would be automatically added to that group (or groups), but could also be added to a different group, set of groups, or group-folder.</p>
+<p>A group could be ‘detached’ from its location, leaving it ‘attached’ only to the group-list. </p>
+<hr />
+<p>Which organizational problems confronting folders and tags do groups solve?</p>
+<p>Looking at (my) list of the problems facing tags and folders, they address each.</p>
+<p>For folders:</p>
+<ol>
+<li>Objects in groups aren’t nested, and are rather referenced in only the groups which they are assigned to. Group-folders and group-folders within groups work like intersecting sets, so only the objects in both group 1 <em>and</em> 2 are shown if group 2 is a group-folder within group 1 or if both form a group-folder.</li>
+<li>Groups are not rigidly hierarchal, and can exist in more than one location.</li>
+<li>Objects can exist in more than one group, and can be referenced in more than one location. </li>
+</ol>
+<p>For tags: </p>
+<ol>
+<li>A group can exist as a group-folder within another group or as a group-folder itself, and aren’t restricted to the group-list.</li>
+<li>Organization of dependent groups makes hierarchal structure of groups possible.</li>
+<li>An item in a group that is not a group-folder or contained within a group-folder can be accessed only from within the group-list.</li>
+</ol>
+<hr />
+<p>Groups solve all the issues I have with the tag-folder system. </p>
+<p>I think it would be a better way of organizing.</p>
+</div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
