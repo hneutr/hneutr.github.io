@@ -204,7 +204,7 @@ div #pagination {
 /******************                Elements                *******************/
 #page-intro {
 	text-align: center;
-	padding: 1.5rem 0 3rem 0;
+	padding: 1.5rem 0 1.5rem 0;
 }
 #page-intro h1 {
 	font-size: 2.5rem;
@@ -215,6 +215,7 @@ div #pagination {
 	margin: 0;
     font-weight: 200;
     font-size: 1rem;
+	margin-bottom: 1.5rem;
 }
 
 hr {
@@ -226,6 +227,14 @@ hr.stubspacer {
 	margin: 3rem auto;
 }
 
+#header-body-split hr.small {
+	width: 1rem;
+	margin: 0 auto;
+}
+#header-body-split hr.large {
+	width: 3rem;
+	margin: .5rem auto;
+}
 .stub {
 	text-align: center;
 }
@@ -266,6 +275,11 @@ hr.stubspacer {
 p.spacer {
     margin: 0;
     margin-top: 1.5rem;
+}
+
+#page-body p {
+	margin: 0 auto;
+	text-indent: 2.5rem;
 }
 #page-body p:first-child {
     margin-top: 0;
@@ -320,6 +334,8 @@ ul > li:before {
   margin-right: .5rem;
 }
 
-#page-body .word-list > p {
+#page-body.word-list > p {
 	text-align: center;
+	margin: 1rem 0;
+	text-indent: 0;
 }
